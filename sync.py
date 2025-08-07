@@ -1,10 +1,23 @@
 #!/bin/python3
 
-#This file should be in charge of syncing this repo with the selected .config/folders 
+#This script is in charge of copying stuff 
 
-#Stuff i want to sync
+# -U --> ~/.config -> .../configurations/
+# -S --> .../configurations/ --> ~/.config 
 
-folders = ['nvim','bspwn']
+# -N {folder name} --> Add a .config folder to the list
+# -R {folder name} -->  Remove a .config folder from the list
+
+import json
+import os
 
 
+folders = []
 
+def copy_folders()
+    #do something
+    pass
+
+def add_to_list()
+    #do something
+    pass

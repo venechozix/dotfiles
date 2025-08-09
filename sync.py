@@ -2,18 +2,21 @@
 
 # This script is in charge of copying stuff
 
-# -U --> ~/.config -> .../configurations/
-# -S --> .../configurations/ --> ~/.config
+# -U --> ~/.config -> .../dotfiles/
+# -S --> .../dotfiles/ --> ~/.config
 
-# -N {folder name} --> Add a .config folder to the list
+# -N {folder name} --> /dotfiles/{folder name} --> ~/.config/{folder name} 
+
+# -A {folder name} --> Add a .config folder to the list
 # -R {folder name} -->  Remove a .config folder from the list
+
 
 import json
 from pathlib import Path
 
 # Folders
 CONFIG = "/home/chozix/.config"
-BACKUP = "~/Configurations/"
+BACKUP = "~/dotfiles"
 
 TEST = "/home/chozix/pyprojects/"
 

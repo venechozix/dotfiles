@@ -14,11 +14,15 @@ chmod +x sync.py
 ./sync.py -U
 ```
 
+All of the possible args are explained in the `sync.py` file
+
 ## Todo
 
 - Actually make the script work lol
 
 - .sh variation of the script (i might not do this tbh)
+
+- change functionality from args to a single menu for everything
 
 ## Current configurations
 
